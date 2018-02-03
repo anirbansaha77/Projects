@@ -1,6 +1,7 @@
 import { expect } from 'chai';
 import findColor from './findColor';
 
+
 describe('Test findcolor creditkarma phoneinterview 2018 feb first round', () => {
     const firstresult = [ 'darkgoldenrod', 'gold', 'goldenrod', 'lightgoldenrodyellow', 'palegoldenrod' ];
     const secondResult = [ 'azure' ];

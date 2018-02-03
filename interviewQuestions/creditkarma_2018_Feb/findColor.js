@@ -25,6 +25,7 @@ function findColor(input) {
 
 }
 
+
 export default findColor;
 //console.log(findColor('uqi'))
 // [ 'darkturquoise', 'mediumaquamarine', 'mediumturquoise', 'paleturquoise', 'turquoise' ]
