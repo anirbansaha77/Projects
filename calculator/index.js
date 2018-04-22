@@ -1,7 +1,7 @@
 import sum from './addition';
 
-const calculator ={
-    sum: sum,
-}
+const calculator = {
+    sum,
+};
 
 export default calculator;

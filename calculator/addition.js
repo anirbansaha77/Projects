@@ -1,9 +1,10 @@
 function sum(...params) {
-    let sum = 0;
-    params.map(item => {
-        sum += parseInt(item);
+    let result = 0;
+    params.map((item) => {
+        result += parseInt(item, 10);
+        return result;
     });
-    return sum;
+    return result;
 }
 
 export default sum;
