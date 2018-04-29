@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import fibonacci from './fibonacci';
 
-describe('fibonacci', () => {    
+describe('fibonacci', () => {
     it('fibonacci test 0', () => {
         expect(fibonacci(0)).to.deep.equal([]);
     });
